@@ -97,9 +97,7 @@ public class Main {
         System.out.println("ins: " + Arrays.toString(ins));
         System.out.println("Вставить ins в позицию 3: " + Arrays.toString(app.add(arrA, ins, 3)));
 
-        // ============ Демонстрация ввода с клавиатуры ============
-        System.out.println("\n=== Демонстрация ввода с клавиатуры ===");
-        app.demoKeyboardInput();
+        
     }
 
     // ============ Задание 1. Методы ============
