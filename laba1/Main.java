@@ -275,26 +275,5 @@ public class Main {
         return res;
     }
 
-    // ============ Демонстрация ввода с клавиатуры ============
-    private void demoKeyboardInput() {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Введите целое число для проверки на двузначность: ");
-        while (!sc.hasNextInt()) {
-            System.out.print("Ошибка! Введите целое число: ");
-            sc.next();
-        }
-        int x = sc.nextInt();
-        System.out.println("Двузначное? " + is2Digits(x));
-
-        System.out.print("Введите вещественное число для дробной части: ");
-        while (!sc.hasNextDouble()) {
-            System.out.print("Ошибка! Введите число: ");
-            sc.next();
-        }
-        double d = sc.nextDouble();
-        System.out.println("Дробная часть: " + fraction(d));
-
-        sc.close();
-    }
+    
 }
